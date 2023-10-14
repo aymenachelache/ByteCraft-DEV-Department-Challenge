@@ -1,0 +1,32 @@
+.community-update {
+    padding-bottom: 150px;
+    .cont {
+        .card {
+            border: none;
+            img {
+                border-radius: 2.67px;
+            }
+            .details {
+                position: absolute;
+                width: 90%;
+                min-height: 128px;
+                left: 50%;
+                transform: translateX(-50%);
+                background-color: #{$sliver-color};
+                border-radius: 6px;
+                bottom: -30%;
+                overflow: hidden;
+            }
+        }
+        @media (max-width: 991px) {
+            & {
+                padding-bottom: 100px;
+            }
+        }
+        @media (max-width: 767px) {
+            & {
+                padding-bottom: 150px;
+            }
+        }
+    }
+}

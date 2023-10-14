@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font Awsome -->
+  <link rel="stylesheet" href="Css/FontAwsome/all.min.css" />
+  <link rel="stylesheet" href="Css/FontAwsome/fontawesome.css" />
+  <link rel="stylesheet" href="Css/FontAwsome/fontawesome.css.map" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="Css/Bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="Css/Bootstrap/bootstrap.min.css.map" />
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- Css File -->
+  <link rel="stylesheet" href="Scss/style.css" />
+
+  <!-- Icon -->
+  <link rel="shortcut icon" href="./Img/favicon.png" type="image/x-icon">
+
+  <title>ByteCraft DEV Department Challenge</title>
+</head>
+
+<body>
+  <!-- Start Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid container pe-md-5">
+        <div class="logo">
+          <a class="d-flex align-items-center" href="#">
+            <img src="Img/logo.png" alt="" />
+            Nexcent
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#community">Community</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-success">
+                Register Now
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- End Header -->
+
+  <!-- Start Hero Section -->
+  <section class="hero">
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="container d-flex justify-content-center align-items-center">
+          <div class="carousel-item active">
+            <div class="row justify-content-between align-items-center">
+              <div class="col-lg-7 box-left">
+                <h1 class="h1">
+                  Lessons and insights <span>from 8 years</span>
+                  <p class="my-4 text-secondary">
+                    Where to grow your business as a photographer: site or
+                    social media?
+                  </p>
+                  <button type="button" class="btn btn-success">
+                    Register
+                  </button>
+                </h1>
+              </div>
+              <div class="col-lg-5 box-right">
+                <img src="./Img/Illustration.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-between align-items-center">
+              <div class="col-lg-7 box-left">
+                <h1 class="h1">
+                  If you are registered,<span> Log In </span>to enjoy
+                  <p class="my-4 text-secondary">
+                    We are not the only onesة but we are the best.
+                  </p>
+                  <button type="button" class="btn btn-success">
+                    Login
+                  </button>
+                </h1>
+              </div>
+              <div class="col-lg-5 box-right">
+                <img src="./Img/Illustration1.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-between align-items-center">
+              <div class="col-lg-7 box-left">
+                <h1 class="h1">
+                  Courses, lessons, educational videos, books... <span></span>
+                  <p class="my-4 text-secondary">
+                    More and more waiting for you!
+                  </p>
+                  <button type="button" class="btn btn-success">
+                    Register
+                  </button>
+                </h1>
+              </div>
+              <div class="col-lg-5 box-right">
+                <img src="./Img/Illustration3.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+  <!-- Start Clients -->
+  <div class="clients mb-5">
+    <div class="heading text-center py-5">
+      <h2 class="fs-1 fw-bold">Our Clients</h2>
+      <p class="my-2">We have been working with some Fortune 500+ clients</p>
+    </div>
+    <div class="container">
+      <div class="images d-flex justify-content-between align-items-center flex-wrap">
+        <img src="./Img/client1.png" alt="" />
+        <img src="./Img/client2.png" alt="" />
+        <img src="./Img/client3.png" alt="" />
+        <img src="./Img/client4.png" alt="" />
+        <img src="./Img/client5.png" alt="" />
+        <img src="./Img/client6.png" alt="" />
+        <img src="./Img/client7.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <!-- End Clients -->
+
+  <!-- Start Community -->
+  <div class="community mb-5">
+    <div class="heading text-center py-5 w-50 m-auto">
+      <h2 class="fs-1 fw-bold">
+        Manage your entire community in a single system
+      </h2>
+      <p class="my-2">Who is Nextcent suitable for?</p>
+    </div>
+    <div class="container">
+      <div class="row mx-auto g-5">
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="card">
+            <div class="icon">
+              <span></span>
+              <img src="./Img/Icon1.png" class="image" alt="" />
+            </div>
+            <h3 class="fs-2 fw-bolder my-3 neutral-color">Membership Organisations</h3>
+            <p class="grey-color">
+              Our membership management software provides full automation of
+              membership renewals and payments
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="card">
+            <div class="icon">
+              <span></span>
+              <img src="./Img/Icon2.png" class="image" alt="" />
+            </div>
+            <h3 class="fs-2 fw-bolder my-3 neutral-color">National Associations</h3>
+            <p class="grey-color">
+              Our membership management software provides full automation of membership renewals and payments
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="card">
+            <div class="icon">
+              <span></span>
+              <img src="./Img/Icon3.png" class="image" alt="" />
+            </div>
+            <h3 class="fs-2 fw-bolder my-3 neutral-color">Clubs And <span class="d-block">Groups</span></h3>
+            <p class="grey-color">
+              Our membership management software provides full automation of
+              membership renewals and payments
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Community -->
+
+  <!-- Start Body -->
+  <div class="body my-5">
+    <div class="container my-5 py-5">
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="./Img/rafiki.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-lg-8">
+          <h3 class="fs-2 fw-bold neutral-color text-center text-lg-start">The unseen of spending three years at
+            Pixelgrade</h3>
+          <p class="grey-color text-center text-lg-start">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+            amet justo ipsum. Sed accumsan quam vitae est varius fringilla.
+            Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
+            tristique iaculis. Nullam pulvinar sit amet risus pretium auctor.
+            Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
+            elementum pulvinar odio.
+          </p>
+          <button type="button" class="btn btn-success d-block mx-auto m-lg-0">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Body -->
+
+  <!-- Start Landing -->
+  <div class="landing my-5 bg-silver">
+    <div class="container my-5 py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <h3 class="neutral-color fs-2 fw-bold text-center text-md-start">Helping a local <span
+              class="d-block primary-color">business reinvent
+              itself</span></h3>
+          <p class="grey-color text-center text-md-start">We reached here with our hard work and dedication</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="row g-3">
+            <div class="col-md-6 d-flex align-items-center">
+              <img src="./Img/Vector1.png" alt="">
+              <div class="details ms-3">
+                <h4 class="neutral-color">2,245,341</h4>
+                <span class="grey-color d-block">Members</span>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+              <img src="./Img/Vector2.png" alt="">
+              <div class="details ms-3">
+                <h4 class="neutral-color">46,328</h4>
+                <span class="grey-color d-block">Clubs</span>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+              <img src="./Img/Vector3.png" alt="">
+              <div class="details ms-3">
+                <h4 class="neutral-color">828,867</h4>
+                <span class="grey-color d-block">Event Bookings</span>
+              </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+              <img src="./Img/Vector4.png" alt="">
+              <div class="details ms-3">
+                <h4 class="neutral-color">1,926,436</h4>
+                <span class="grey-color d-block">Payments</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Landing -->
+
+
+  <!-- Start Calender -->
+  <div class="calender my-5">
+    <div class="container my-5 py-5">
+      <div class="row  align-items-center">
+        <div class="col-lg-4">
+          <img src="./Img/pana.png" class="img-fluid" alt="" />
+        </div>
+        <div class="col-lg-8">
+          <h3 class="fs-2 fw-bold neutral-color text-center text-lg-start">How to design your site footer like we did
+          </h3>
+          <p class="grey-color text-center text-lg-start">
+            Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie, massa nunc
+            varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices mollis. In hac habitasse
+            platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis finibus. In euismod augue vitae nisi
+            ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis massa.
+            Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus ipsum id
+            gravida.
+          </p>
+          <button type="button" class="btn btn-success d-block mx-auto m-lg-0">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Calender -->
+
+  <!-- Start Customers -->
+  <div class="customers my-5 bg-silver">
+    <div class="container my-5 py-5">
+      <div class="row  align-items-center gx-lg-5">
+        <div class="col-lg-4 text-center">
+          <img src="./Img/image 9.png" class="img-fluid m-auto m-lg-0" alt="" />
+        </div>
+        <div class="col-lg-8">
+          <p class="grey-color text-center text-lg-start">
+            Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt
+            ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut
+            molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie, nec molestie mi blandit.
+            Suspendisse cursus tellus sed augue ultrices, quis tristique nulla sodales. Suspendisse eget lorem eu turpis
+            vestibulum pretium. Suspendisse potenti. Quisque malesuada enim sapien, vitae placerat ante feugiat eget.
+            Quisque vulputate odio neque, eget efficitur libero condimentum id. Curabitur id nibh id sem dignissim
+            finibus ac sit amet magna.
+          </p>
+          <h5 class="fw-bold primary-color">Tim Smith</h5>
+          <p class="grey-color">
+            British Dragon Boat Racing Association
+          </p>
+          <div class="images d-flex justify-content-between align-items-center flex-wrap mt-2">
+            <img src="./Img/client1.png" class="img-fluid client" alt="" />
+            <img src="./Img/client2.png" class="img-fluid client" alt="" />
+            <img src="./Img/client3.png" class="img-fluid client" alt="" />
+            <img src="./Img/client4.png" class="img-fluid client" alt="" />
+            <img src="./Img/client5.png" class="img-fluid client" alt="" />
+            <img src="./Img/client6.png" class="img-fluid client" alt="" />
+            <a href="#" class="primary-color fw-bold mt-2 mt-sm-0">Meet all customers <i
+                class="fa-solid fa-arrow-right ms-2"></i></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Customers -->
+
+  <!-- Start Community Update -->
+  <div class="community-update mb-5" id="community">
+    <div class="heading text-center py-5 w-50 m-auto">
+      <h2 class="fs-1 fw-bold">
+        Caring is the new marketing
+      </h2>
+      <p class="my-2">The Nextcent blog is the best place to read about the latest membership insights, trends and more.
+        See who's joining the community, read about how our community are increasing their membership income and lot's
+        more.​</p>
+    </div>
+    <div class="container">
+      <div class="row g-lg-5">
+        <div class="col-lg-4 col-md-6 text-center cont">
+          <div class="card">
+            <div class="icon">
+              <img src="./Img/image 18.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="details p-2 d-flex flex-column justify-content-between">
+              <p class="grey-color fw-bold py-2">
+                Creating Streamlined <br> Safeguarding Processes with OneRen
+              </p>
+              <a href="#" class="primary-color fw-bold">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center cont">
+          <div class="card">
+            <div class="icon">
+              <img src="./Img/image 19.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="details p-2 d-flex flex-column justify-content-between">
+              <p class="grey-color fw-bold">
+                What are your safeguarding responsibilities and how can you manage them?
+              </p>
+              <a href="#" class="primary-color fw-bold py-2">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center cont">
+          <div class="card">
+            <div class="icon">
+              <img src="./Img/image 20.jpg" class="img-fluid" alt="" />
+            </div>
+            <div class="details p-2 d-flex flex-column justify-content-between">
+              <p class="grey-color fw-bold">
+                Revamping the Membership <br> Model with Triathlon Usa <br> Australia
+              </p>
+              <a href="#" class="primary-color fw-bold py-2">Read More<i class="fa-solid fa-arrow-right ms-2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <!-- End Community Update -->
+
+  <!-- Start Footer -->
+  <footer>
+    <div class="footer mt-5">
+      <div class="py-5 bg-silver">
+        <div class="heading text-center py-2 w-50 m-auto bg-silver">
+          <h1 class="fs-1 fw-bold secondary-color">
+            Pellentesque suscipit fringilla libero eu.
+          </h1>
+          <button type="button" class="btn btn-success mt-3">
+            Get a Demo
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+      <div class="box bg-secondary text-white">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-3">
+              <div class="logo">
+                <a class="d-flex align-items-center" href="#">
+                  <img src="Img/footer/logofooter.png" alt="" />
+                  Nexcent
+                </a>
+              </div>
+              <div class="copyright py-4">
+                <p class="p-0 m-0">Copyright © 2023 Nexcent ltd.</p>
+                <p class="p-0 m-0">All rights reserved</p>
+              </div>
+              <div class="social-media mt-2">
+                <ul class="d-flex justify-content-around align-items-center">
+                  <li><a href="https://www.instagram.com/aymen_achelache" target="_blank"><img src="./Img/footer/insta.svg" alt=""></a></li>
+                  <li><a href="#" target="_blank"><img src="./Img/footer/dribble.svg" alt=""></a></li>
+                  <li><a href="#" target="_blank"><img src="./Img/footer/twitter.svg" alt=""></a></li>
+                  <li><a href="#" target="_blank"><img src="./Img/footer/youtube.svg" alt=""></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-2"></div>
+            <div class="col-lg-2 col-sm-6 text-center text-sm-start mt-4 mt-lg-0">
+              <h4>Company</h4>
+              <ul class="mt-3">
+                <li class="py-2"><a href="#" class="silver-color">About us</a></li>
+                <li class="py-2"><a href="#" class="silver-color">Blog</a></li>
+                <li class="py-2"><a href="#" class="silver-color">Contact us</a></li>
+                <li class="py-2"><a href="#" class="silver-color">Pricing</a></li>
+                <li class="py-2"><a href="#" class="silver-color">Testimonials</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2 col-sm-6 text-center text-sm-start mt-4 mt-lg-0">
+              <h4>Support</h4>
+              <ul class="mt-3">
+                <li class="py-2"><a href="#" class="silver-color">Help center</a></li>
+                <li class="py-2"><a href="#" class="silver-color">Terms of service</a></li>
+                <li class="py-2"><a href="#" class="silver-color">Legal</a></li>
+                <li class="py-2"><a href="#" class="silver-color">Privacy policy</a></li>
+                <li class="py-2"><a href="#" class="silver-color">Status</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 text-center text-sm-start mt-4 mt-lg-0">
+              <h4>Stay up to date</h4>
+              <div class="form mt-4">
+                <form action="" class="w-100">
+                  <input type="email" placeholder="Your email address" class="border-0 text-white" required>
+                  <button type="submit"><img src="./Img/footer/send.svg" alt=""></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="m-0 pb-2 text-center"><a href="https://github.com/aymenachelache" class="primary-color" target="_blank">AYMEN ACHELACHE</a></p>
+      </div>
+  </footer>
+  <!-- End Footer -->
+
+
+  <script src="Js/all.min.js"></script>
+  <script src="Js/bootstrap.bundle.min.js"></script>
+  <script src="Js/bootstrap.bundle.min.js.map"></script>
+</body>
+
+</html>

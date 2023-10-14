@@ -1,0 +1,32 @@
+.community {
+    .container {
+        .row {
+            .cont {
+                .card {
+                    min-height: 334px;
+                    padding: 30px 10px;
+                    border: none;
+                    box-shadow: 0px 0.6677330732345581px 1.3354661464691162px 0px #ABBED133;
+                    .icon {
+                        span {
+                            width: 60px;
+                            height: 60px;
+                            display: block;
+                            border-radius: 50% 0 50% 0;
+                            background-color: #{$tint-color};
+                            position: absolute;
+                            left: 50%;
+                            transform: translateX(-50%);
+                        }
+                        img.image {
+                            position: relative;
+                            width: 55px;
+                            height: 55px;
+                            transform: translate(-40%, -20%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

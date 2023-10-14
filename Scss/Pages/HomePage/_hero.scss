@@ -1,0 +1,80 @@
+.hero {
+    .carousel-inner {
+        background-color: #{$sliver-color};
+        min-height: calc(100vh - 62px);
+
+        .container {
+            height: calc(100vh - 62px);
+            transform: translateX(-50%);
+            .row {
+                .box-left {
+                    .h1 {
+                        color: #{$Neutral-color};
+                        font-size: 45px;
+                        font-weight: 600;
+                        width: 80%;
+
+                        span {
+                            color: #{$primary-color};
+                        }
+
+                        @media (max-width: 992px) {
+                            & {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    p {
+                        font-size: 15px;
+                        font-weight: 400;
+                    }
+
+                    .btn {
+                        padding: 10px 30px;
+                    }
+
+                    @media (max-width: 992px) {
+                        & {
+                            text-align: center;
+                        }
+                    }
+                }
+
+                .box-right {
+                    img {
+                        max-width: 100%;
+
+                        @media (max-width: 992px) {
+                            & {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .carousel-indicators [data-bs-target] {
+        background-color: #{$primary-color} !important;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+    }
+
+    .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%234CAF4F' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    }
+
+    .carousel-control-next-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%234CAF4F' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        @media (min-width: 991px) {
+            & {
+                width: 5%;
+            }
+        }
+    }
+}

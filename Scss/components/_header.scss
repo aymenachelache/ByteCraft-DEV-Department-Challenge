@@ -1,0 +1,44 @@
+
+// Reset NavBar
+@media (min-width: 991px) {
+    header .navbar-collapse {
+        flex-basis: 0 !important;
+        justify-content: flex-end;
+        flex-grow: 0 !important;
+    }
+}
+
+header {
+    .navbar {
+        padding: 11px 0;
+        .logo {
+            img {
+                width: 24.36px;
+                height: 16.71px;
+            }
+
+            a {
+                font-size: 18px;
+                font-weight: 800;
+                color: #{$secondary-color};
+            }
+        }
+
+        .navbar-nav {
+            gap: 16.71px;
+            .nav-item {
+                .nav-link:hover {
+                    color: #{$secondary-color};
+                }
+            }
+            .nav-item:last-child {
+                flex-shrink: 0;
+                .btn {
+                    height: 100%;
+                }
+            }
+        }
+
+        
+    }
+}

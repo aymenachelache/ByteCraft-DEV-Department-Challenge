@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.btn {
+  background-color: #4CAF4F;
+  border-radius: 2.78px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  border: none;
+  transition: all 0.3s;
+}
+.btn i {
+  margin-left: 2px;
+}
+.btn:hover {
+  background-color: #449747;
+}
+
+.primary-color {
+  color: #4CAF4F;
+}
+
+.secondary-color {
+  color: #263238;
+}
+
+.neutral-color {
+  color: #4D4D4D;
+}
+
+.grey-color {
+  color: #717171;
+}
+
+.silver-color {
+  color: #F5F7FA;
+}
+
+.bg-silver {
+  background-color: #F5F7FA;
+}
+
+.bg-secondary {
+  background-color: #263238 !important;
+}
+
+@media (max-width: 767px) {
+  .heading {
+    width: 100% !important;
+  }
+}
+.heading h2 {
+  color: #4D4D4D;
+}
+.heading p {
+  color: #717171 !important;
+}
+
+/* Start Hero Header */
+@media (min-width: 991px) {
+  header .navbar-collapse {
+    flex-basis: 0 !important;
+    justify-content: flex-end;
+    flex-grow: 0 !important;
+  }
+}
+header .navbar {
+  padding: 11px 0;
+}
+header .navbar .logo img {
+  width: 24.36px;
+  height: 16.71px;
+}
+header .navbar .logo a {
+  font-size: 18px;
+  font-weight: 800;
+  color: #263238;
+}
+header .navbar .navbar-nav {
+  gap: 16.71px;
+}
+header .navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #263238;
+}
+header .navbar .navbar-nav .nav-item:last-child {
+  flex-shrink: 0;
+}
+header .navbar .navbar-nav .nav-item:last-child .btn {
+  height: 100%;
+}
+
+/* Start Hero Header */
+/* Start Hero Section */
+.hero .carousel-inner {
+  background-color: #F5F7FA;
+  min-height: calc(100vh - 62px);
+}
+.hero .carousel-inner .container {
+  height: calc(100vh - 62px);
+  transform: translateX(-50%);
+}
+.hero .carousel-inner .container .row .box-left .h1 {
+  color: #4D4D4D;
+  font-size: 45px;
+  font-weight: 600;
+  width: 80%;
+}
+.hero .carousel-inner .container .row .box-left .h1 span {
+  color: #4CAF4F;
+}
+@media (max-width: 992px) {
+  .hero .carousel-inner .container .row .box-left .h1 {
+    width: 100%;
+  }
+}
+.hero .carousel-inner .container .row .box-left p {
+  font-size: 15px;
+  font-weight: 400;
+}
+.hero .carousel-inner .container .row .box-left .btn {
+  padding: 10px 30px;
+}
+@media (max-width: 992px) {
+  .hero .carousel-inner .container .row .box-left {
+    text-align: center;
+  }
+}
+.hero .carousel-inner .container .row .box-right img {
+  max-width: 100%;
+}
+@media (max-width: 992px) {
+  .hero .carousel-inner .container .row .box-right img {
+    display: none;
+  }
+}
+.hero .carousel-indicators [data-bs-target] {
+  background-color: #4CAF4F !important;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+.hero .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%234CAF4F' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.hero .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%234CAF4F' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+@media (min-width: 991px) {
+  .hero .carousel-control-next, .hero .carousel-control-prev {
+    width: 5%;
+  }
+}
+
+/* End Hero Section */
+/* Start Clients */
+.clients .container .images img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* End Clients */
+/* Start Community */
+.community .container .row .cont .card {
+  min-height: 334px;
+  padding: 30px 10px;
+  border: none;
+  box-shadow: 0px 0.6677330732px 1.3354661465px 0px rgba(171, 190, 209, 0.2);
+}
+.community .container .row .cont .card .icon span {
+  width: 60px;
+  height: 60px;
+  display: block;
+  border-radius: 50% 0 50% 0;
+  background-color: #E8F5E9;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.community .container .row .cont .card .icon img.image {
+  position: relative;
+  width: 55px;
+  height: 55px;
+  transform: translate(-40%, -20%);
+}
+
+/* End Community */
+/* Start Customers */
+.customers img.client {
+  width: 50px;
+  height: 50px;
+}
+
+/* End Customers */
+/* Community Update */
+.community-update {
+  padding-bottom: 150px;
+}
+.community-update .cont .card {
+  border: none;
+}
+.community-update .cont .card img {
+  border-radius: 2.67px;
+}
+.community-update .cont .card .details {
+  position: absolute;
+  width: 90%;
+  min-height: 128px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #F5F7FA;
+  border-radius: 6px;
+  bottom: -30%;
+  overflow: hidden;
+}
+@media (max-width: 991px) {
+  .community-update .cont {
+    padding-bottom: 100px;
+  }
+}
+@media (max-width: 767px) {
+  .community-update .cont {
+    padding-bottom: 150px;
+  }
+}
+
+/* End Community Update */
+/* Start Footer */
+footer .box .logo img {
+  width: 43.27px;
+  height: 29.67px;
+  margin-right: 5px;
+}
+footer .box .logo a {
+  font-size: 32px;
+  font-weight: 800;
+  color: #fff;
+}
+footer .box .social-media ul li {
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3C464C;
+  border-radius: 50%;
+  transition: 0.3s;
+  line-height: 10px;
+}
+footer .box .social-media ul li:hover {
+  background-color: #4CAF4F;
+}
+@media (min-width: 991px) {
+  footer .box .social-media {
+    width: 80%;
+  }
+}
+footer .box .form form {
+  position: relative;
+  height: 40px;
+}
+@media (min-width: 1200px) {
+  footer .box .form form {
+    width: 255px !important;
+  }
+}
+footer .box .form form input {
+  width: 100%;
+  outline: none;
+  background-color: #515B60;
+  border-radius: 8px;
+  flex-shrink: 0;
+  padding: 10px 20px;
+}
+footer .box .form form button {
+  position: absolute;
+  right: 15px;
+  top: 55%;
+  transform: translateY(-50%);
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+footer .box input::placeholder {
+  color: #D9DBE1;
+}
+
+/* End Footer *//*# sourceMappingURL=style.css.map */
